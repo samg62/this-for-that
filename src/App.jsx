@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Search, ArrowRight, Sparkles } from 'lucide-react';
+import { Analytics } from '@vercel/analytics/react';
 
 const ingredientsData = {
   ingredients: [
@@ -712,6 +713,7 @@ const App = () => {
           </div>
         )}
       </div>
+      <Analytics />
     </div>
   );
 };
