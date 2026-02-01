@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Search, ArrowRight, Sparkles } from 'lucide-react';
 import { Analytics } from '@vercel/analytics/react';
 
+
 const ingredientsData = {
   ingredients: [
     {
@@ -503,13 +504,6 @@ const ingredientsData = {
 const App = () => {
   const [selectedIngredient, setSelectedIngredient] = useState(null);
   const [searchTerm, setSearchTerm] = useState('');
-  const [selectedDietary, setSelectedDietary] = useState([]);
-
-  const allDietaryTags = [...new Set(
-    ingredientsData.ingredients.flatMap(ing => 
-      ing.substitutes.flatMap(sub => sub.dietaryTags)
-    )
-  )].filter(Boolean);
 
   const filteredIngredients = ingredientsData.ingredients.filter(ing =>
     ing.name.toLowerCase().includes(searchTerm.toLowerCase())
@@ -524,11 +518,17 @@ const App = () => {
     }
   };
 
+  const getQualityLabel = (quality) => {
+    switch(quality) {
+      case 'excellent': return 'Excellent match - works like the original';
+      case 'good': return 'Good substitute - minor differences';
+      case 'acceptable': return 'Acceptable - works in a pinch';
+      default: return quality;
+    }
+  };
+
   const filteredSubstitutes = selectedIngredient 
-    ? selectedIngredient.substitutes.filter(sub => 
-        selectedDietary.length === 0 || 
-        selectedDietary.some(diet => sub.dietaryTags.includes(diet))
-      )
+    ? selectedIngredient.substitutes
     : [];
 
   return (
@@ -613,33 +613,6 @@ const App = () => {
                   ← Back
                 </button>
               </div>
-
-              {allDietaryTags.length > 0 && (
-                <div>
-                  <p className="text-sm font-semibold text-slate-600 mb-3">Filter by diet</p>
-                  <div className="flex flex-wrap gap-2">
-                    {allDietaryTags.map((tag) => (
-                      <button
-                        key={tag}
-                        onClick={() => {
-                          setSelectedDietary(prev =>
-                            prev.includes(tag)
-                              ? prev.filter(t => t !== tag)
-                              : [...prev, tag]
-                          );
-                        }}
-                        className={`px-4 py-2 rounded-xl text-sm font-bold transition-all transform hover:scale-105 ${
-                          selectedDietary.includes(tag)
-                            ? 'bg-gradient-to-r from-emerald-500 to-teal-600 text-white shadow-lg'
-                            : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
-                        }`}
-                      >
-                        {tag}
-                      </button>
-                    ))}
-                  </div>
-                </div>
-              )}
             </div>
 
             <div className="space-y-5">
@@ -657,7 +630,7 @@ const App = () => {
                         <h3 className="text-xl sm:text-2xl font-black text-slate-800 mb-2">{substitute.name}</h3>
                         <div className="flex items-center gap-2 flex-wrap">
                           <span className={`px-3 sm:px-4 py-1.5 rounded-lg text-xs sm:text-sm font-bold border-2 ${getQualityColor(substitute.quality)}`}>
-                            {substitute.quality}
+                            {getQualityLabel(substitute.quality)}
                           </span>
                           {substitute.dietaryTags.map((tag, i) => (
                             <span key={i} className="px-2 sm:px-3 py-1.5 bg-gradient-to-r from-teal-100 to-emerald-100 text-emerald-700 rounded-lg text-xs font-bold">
