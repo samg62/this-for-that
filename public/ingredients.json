@@ -1,0 +1,366 @@
+{
+  "ingredients": [
+    {
+      "id": "butter",
+      "name": "Butter",
+      "category": "fat",
+      "substitutes": [
+        {
+          "name": "Coconut oil",
+          "ratio": "1:1 (use same amount)",
+          "contexts": ["baking", "cooking"],
+          "quality": "excellent",
+          "dietaryTags": ["vegan", "dairy-free"],
+          "textureImpact": "Similar texture and moisture",
+          "flavorImpact": "Slight coconut flavor with unrefined",
+          "notes": "Use refined coconut oil for neutral flavor."
+        },
+        {
+          "name": "Margarine",
+          "ratio": "1:1 (use same amount)",
+          "contexts": ["baking", "cooking"],
+          "quality": "excellent",
+          "dietaryTags": ["dairy-free"],
+          "textureImpact": "Very similar to butter",
+          "flavorImpact": "Slightly different flavor",
+          "notes": "Use stick margarine, not spread."
+        }
+      ]
+    },
+    {
+      "id": "eggs",
+      "name": "Eggs",
+      "category": "binding",
+      "substitutes": [
+        {
+          "name": "Flax egg",
+          "ratio": "1 egg = 1 tbsp ground flaxseed + 3 tbsp water",
+          "contexts": ["baking"],
+          "quality": "excellent",
+          "dietaryTags": ["vegan"],
+          "textureImpact": "Slightly denser",
+          "flavorImpact": "Nutty, earthy flavor",
+          "notes": "Mix and let sit 5 minutes until gel-like."
+        },
+        {
+          "name": "Applesauce",
+          "ratio": "1 egg = 1/4 cup applesauce",
+          "contexts": ["baking"],
+          "quality": "good",
+          "dietaryTags": ["vegan"],
+          "textureImpact": "Denser, more moist",
+          "flavorImpact": "Slightly sweet",
+          "notes": "Best in cakes, brownies, muffins."
+        }
+      ]
+    },
+    {
+      "id": "milk",
+      "name": "Milk",
+      "category": "liquid",
+      "substitutes": [
+        {
+          "name": "Almond milk",
+          "ratio": "1:1 (use same amount)",
+          "contexts": ["baking", "cooking"],
+          "quality": "excellent",
+          "dietaryTags": ["vegan", "dairy-free"],
+          "textureImpact": "Slightly thinner",
+          "flavorImpact": "Mild almond flavor",
+          "notes": "Use unsweetened for savory dishes."
+        },
+        {
+          "name": "Oat milk",
+          "ratio": "1:1 (use same amount)",
+          "contexts": ["baking", "cooking"],
+          "quality": "excellent",
+          "dietaryTags": ["vegan", "dairy-free"],
+          "textureImpact": "Similar creaminess",
+          "flavorImpact": "Mild, slightly sweet",
+          "notes": "One of the best dairy milk replacements."
+        }
+      ]
+    },
+    {
+      "id": "white-sugar",
+      "name": "White sugar",
+      "category": "sweetener",
+      "substitutes": [
+        {
+          "name": "Brown sugar",
+          "ratio": "1:1 (use same amount)",
+          "contexts": ["baking", "cooking"],
+          "quality": "excellent",
+          "dietaryTags": [],
+          "textureImpact": "Moister, chewier",
+          "flavorImpact": "Molasses/caramel flavor",
+          "notes": "Creates chewier cookies and moister cakes."
+        },
+        {
+          "name": "Honey",
+          "ratio": "3/4 cup honey per 1 cup sugar",
+          "contexts": ["baking", "cooking"],
+          "quality": "good",
+          "dietaryTags": [],
+          "textureImpact": "Moister, denser",
+          "flavorImpact": "Distinct honey flavor",
+          "notes": "Reduce oven temp by 25F and liquid by 1/4 cup."
+        }
+      ]
+    },
+    {
+      "id": "all-purpose-flour",
+      "name": "All-purpose flour",
+      "category": "structure",
+      "substitutes": [
+        {
+          "name": "Bread flour",
+          "ratio": "1:1 (use same amount)",
+          "contexts": ["baking"],
+          "quality": "good",
+          "dietaryTags": [],
+          "textureImpact": "Chewier, denser texture",
+          "flavorImpact": "Neutral",
+          "notes": "Good for bread and pizza. Makes cookies tougher."
+        },
+        {
+          "name": "Gluten-free flour blend",
+          "ratio": "1:1 (use same amount)",
+          "contexts": ["baking"],
+          "quality": "good",
+          "dietaryTags": ["gluten-free"],
+          "textureImpact": "Often slightly grittier",
+          "flavorImpact": "Depends on blend",
+          "notes": "Use 1:1 blends like Bob's Red Mill or King Arthur."
+        }
+      ]
+    },
+    {
+      "id": "baking-powder",
+      "name": "Baking powder",
+      "category": "leavening",
+      "substitutes": [
+        {
+          "name": "Baking soda + cream of tartar",
+          "ratio": "1 tsp = 1/4 tsp soda + 1/2 tsp cream of tartar",
+          "contexts": ["baking"],
+          "quality": "excellent",
+          "dietaryTags": [],
+          "textureImpact": "Identical",
+          "flavorImpact": "Neutral",
+          "notes": "This is what baking powder is made of."
+        }
+      ]
+    },
+    {
+      "id": "heavy-cream",
+      "name": "Heavy cream",
+      "category": "dairy",
+      "substitutes": [
+        {
+          "name": "Milk + butter",
+          "ratio": "1 cup = 3/4 cup milk + 1/4 cup butter",
+          "contexts": ["cooking", "baking"],
+          "quality": "good",
+          "dietaryTags": [],
+          "textureImpact": "Slightly less rich",
+          "flavorImpact": "Similar",
+          "notes": "Works for cooking. Won't whip like cream."
+        },
+        {
+          "name": "Coconut cream",
+          "ratio": "1:1 (use same amount)",
+          "contexts": ["cooking", "baking"],
+          "quality": "excellent",
+          "dietaryTags": ["vegan", "dairy-free"],
+          "textureImpact": "Similar richness",
+          "flavorImpact": "Coconut flavor",
+          "notes": "Chill can overnight, use thick top layer."
+        }
+      ]
+    },
+    {
+      "id": "sour-cream",
+      "name": "Sour cream",
+      "category": "dairy",
+      "substitutes": [
+        {
+          "name": "Greek yogurt",
+          "ratio": "1:1 (use same amount)",
+          "contexts": ["baking", "cooking", "topping"],
+          "quality": "excellent",
+          "dietaryTags": [],
+          "textureImpact": "Similar thickness",
+          "flavorImpact": "Similar tanginess",
+          "notes": "Nearly identical. Use full-fat for best results."
+        }
+      ]
+    },
+    {
+      "id": "buttermilk",
+      "name": "Buttermilk",
+      "category": "dairy",
+      "substitutes": [
+        {
+          "name": "Milk + lemon juice",
+          "ratio": "1 cup = 1 cup milk + 1 tbsp lemon juice",
+          "contexts": ["baking"],
+          "quality": "excellent",
+          "dietaryTags": [],
+          "textureImpact": "Identical",
+          "flavorImpact": "Identical tanginess",
+          "notes": "Let sit 5-10 minutes before using."
+        }
+      ]
+    },
+    {
+      "id": "vegetable-oil",
+      "name": "Vegetable oil",
+      "category": "fat",
+      "substitutes": [
+        {
+          "name": "Canola oil",
+          "ratio": "1:1 (use same amount)",
+          "contexts": ["baking", "cooking", "frying"],
+          "quality": "excellent",
+          "dietaryTags": [],
+          "textureImpact": "Identical",
+          "flavorImpact": "Neutral",
+          "notes": "Interchangeable in all recipes."
+        },
+        {
+          "name": "Melted coconut oil",
+          "ratio": "1:1 (use same amount)",
+          "contexts": ["baking", "cooking"],
+          "quality": "good",
+          "dietaryTags": ["vegan"],
+          "textureImpact": "Similar",
+          "flavorImpact": "Slight coconut flavor",
+          "notes": "Use refined for neutral flavor."
+        }
+      ]
+    },
+    {
+      "id": "honey",
+      "name": "Honey",
+      "category": "sweetener",
+      "substitutes": [
+        {
+          "name": "Maple syrup",
+          "ratio": "1:1 (use same amount)",
+          "contexts": ["baking", "cooking"],
+          "quality": "excellent",
+          "dietaryTags": ["vegan"],
+          "textureImpact": "Similar",
+          "flavorImpact": "Maple flavor",
+          "notes": "Same consistency and sweetness level."
+        },
+        {
+          "name": "Agave nectar",
+          "ratio": "1:1 (use same amount)",
+          "contexts": ["baking", "cooking"],
+          "quality": "excellent",
+          "dietaryTags": ["vegan"],
+          "textureImpact": "Similar",
+          "flavorImpact": "Milder, more neutral",
+          "notes": "Lower glycemic index. Vegan option."
+        }
+      ]
+    },
+    {
+      "id": "lemon-juice",
+      "name": "Lemon juice",
+      "category": "acid",
+      "substitutes": [
+        {
+          "name": "Lime juice",
+          "ratio": "1:1 (use same amount)",
+          "contexts": ["baking", "cooking"],
+          "quality": "excellent",
+          "dietaryTags": [],
+          "textureImpact": "Identical",
+          "flavorImpact": "Lime flavor",
+          "notes": "Same acidity level. Works perfectly."
+        },
+        {
+          "name": "White vinegar",
+          "ratio": "1:1 (use same amount)",
+          "contexts": ["baking"],
+          "quality": "good",
+          "dietaryTags": [],
+          "textureImpact": "Identical",
+          "flavorImpact": "Less fruity, more sharp",
+          "notes": "Works for acidity in baking."
+        }
+      ]
+    },
+    {
+      "id": "fresh-garlic",
+      "name": "Fresh garlic",
+      "category": "aromatics",
+      "substitutes": [
+        {
+          "name": "Garlic powder",
+          "ratio": "1 clove = 1/8 tsp powder",
+          "contexts": ["cooking"],
+          "quality": "acceptable",
+          "dietaryTags": [],
+          "textureImpact": "No texture",
+          "flavorImpact": "Less pungent",
+          "notes": "Use sparingly."
+        }
+      ]
+    },
+    {
+      "id": "fresh-ginger",
+      "name": "Fresh ginger",
+      "category": "aromatics",
+      "substitutes": [
+        {
+          "name": "Ground ginger",
+          "ratio": "1 tbsp fresh = 1/4 tsp ground",
+          "contexts": ["cooking", "baking"],
+          "quality": "acceptable",
+          "dietaryTags": [],
+          "textureImpact": "No texture",
+          "flavorImpact": "More concentrated",
+          "notes": "Much stronger. Start with less."
+        }
+      ]
+    },
+    {
+      "id": "fresh-herbs",
+      "name": "Fresh herbs",
+      "category": "herbs",
+      "substitutes": [
+        {
+          "name": "Dried herbs",
+          "ratio": "1 tbsp fresh = 1 tsp dried",
+          "contexts": ["cooking"],
+          "quality": "acceptable",
+          "dietaryTags": [],
+          "textureImpact": "No texture",
+          "flavorImpact": "More concentrated",
+          "notes": "Use 1/3 the amount."
+        }
+      ]
+    },
+    {
+      "id": "cooking-wine",
+      "name": "Cooking wine",
+      "category": "liquid",
+      "substitutes": [
+        {
+          "name": "Broth + vinegar",
+          "ratio": "1 cup wine = 1 cup broth + 1 tbsp vinegar",
+          "contexts": ["cooking"],
+          "quality": "good",
+          "dietaryTags": [],
+          "textureImpact": "Similar",
+          "flavorImpact": "Less complex",
+          "notes": "Broth adds body, acid adds brightness."
+        }
+      ]
+    }
+  ]
+}
