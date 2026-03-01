@@ -8,22 +8,18 @@
         {
           "name": "Coconut oil",
           "ratio": "1:1 (use same amount)",
-          "contexts": ["baking", "cooking"],
+          "contexts": [
+            "baking",
+            "cooking"
+          ],
           "quality": "excellent",
-          "dietaryTags": ["vegan", "dairy-free"],
+          "dietaryTags": [
+            "vegan",
+            "dairy-free"
+          ],
           "textureImpact": "Similar texture and moisture",
           "flavorImpact": "Slight coconut flavor with unrefined",
           "notes": "Use refined coconut oil for neutral flavor."
-        },
-        {
-          "name": "Margarine",
-          "ratio": "1:1 (use same amount)",
-          "contexts": ["baking", "cooking"],
-          "quality": "excellent",
-          "dietaryTags": ["dairy-free"],
-          "textureImpact": "Very similar to butter",
-          "flavorImpact": "Slightly different flavor",
-          "notes": "Use stick margarine, not spread."
         }
       ]
     },
@@ -35,22 +31,16 @@
         {
           "name": "Flax egg",
           "ratio": "1 egg = 1 tbsp ground flaxseed + 3 tbsp water",
-          "contexts": ["baking"],
+          "contexts": [
+            "baking"
+          ],
           "quality": "excellent",
-          "dietaryTags": ["vegan"],
+          "dietaryTags": [
+            "vegan"
+          ],
           "textureImpact": "Slightly denser",
           "flavorImpact": "Nutty, earthy flavor",
           "notes": "Mix and let sit 5 minutes until gel-like."
-        },
-        {
-          "name": "Applesauce",
-          "ratio": "1 egg = 1/4 cup applesauce",
-          "contexts": ["baking"],
-          "quality": "good",
-          "dietaryTags": ["vegan"],
-          "textureImpact": "Denser, more moist",
-          "flavorImpact": "Slightly sweet",
-          "notes": "Best in cakes, brownies, muffins."
         }
       ]
     },
@@ -62,49 +52,18 @@
         {
           "name": "Almond milk",
           "ratio": "1:1 (use same amount)",
-          "contexts": ["baking", "cooking"],
+          "contexts": [
+            "baking",
+            "cooking"
+          ],
           "quality": "excellent",
-          "dietaryTags": ["vegan", "dairy-free"],
+          "dietaryTags": [
+            "vegan",
+            "dairy-free"
+          ],
           "textureImpact": "Slightly thinner",
           "flavorImpact": "Mild almond flavor",
           "notes": "Use unsweetened for savory dishes."
-        },
-        {
-          "name": "Oat milk",
-          "ratio": "1:1 (use same amount)",
-          "contexts": ["baking", "cooking"],
-          "quality": "excellent",
-          "dietaryTags": ["vegan", "dairy-free"],
-          "textureImpact": "Similar creaminess",
-          "flavorImpact": "Mild, slightly sweet",
-          "notes": "One of the best dairy milk replacements."
-        }
-      ]
-    },
-    {
-      "id": "white-sugar",
-      "name": "White sugar",
-      "category": "sweetener",
-      "substitutes": [
-        {
-          "name": "Brown sugar",
-          "ratio": "1:1 (use same amount)",
-          "contexts": ["baking", "cooking"],
-          "quality": "excellent",
-          "dietaryTags": [],
-          "textureImpact": "Moister, chewier",
-          "flavorImpact": "Molasses/caramel flavor",
-          "notes": "Creates chewier cookies and moister cakes."
-        },
-        {
-          "name": "Honey",
-          "ratio": "3/4 cup honey per 1 cup sugar",
-          "contexts": ["baking", "cooking"],
-          "quality": "good",
-          "dietaryTags": [],
-          "textureImpact": "Moister, denser",
-          "flavorImpact": "Distinct honey flavor",
-          "notes": "Reduce oven temp by 25F and liquid by 1/4 cup."
         }
       ]
     },
@@ -116,22 +75,54 @@
         {
           "name": "Bread flour",
           "ratio": "1:1 (use same amount)",
-          "contexts": ["baking"],
+          "contexts": [
+            "baking"
+          ],
           "quality": "good",
           "dietaryTags": [],
           "textureImpact": "Chewier, denser texture",
           "flavorImpact": "Neutral",
-          "notes": "Good for bread and pizza. Makes cookies tougher."
-        },
+          "notes": "Good for bread, pizza, but makes cookies tougher."
+        }
+      ]
+    },
+    {
+      "id": "white-sugar",
+      "name": "White sugar",
+      "category": "sweetener",
+      "substitutes": [
         {
-          "name": "Gluten-free flour blend",
+          "name": "Brown sugar",
           "ratio": "1:1 (use same amount)",
-          "contexts": ["baking"],
-          "quality": "good",
-          "dietaryTags": ["gluten-free"],
-          "textureImpact": "Often slightly grittier",
-          "flavorImpact": "Depends on blend",
-          "notes": "Use 1:1 blends like Bob's Red Mill or King Arthur."
+          "contexts": [
+            "baking",
+            "cooking"
+          ],
+          "quality": "excellent",
+          "dietaryTags": [],
+          "textureImpact": "Moister, chewier",
+          "flavorImpact": "Molasses/caramel flavor",
+          "notes": "Creates chewier cookies and moister cakes."
+        }
+      ]
+    },
+    {
+      "id": "brown-sugar",
+      "name": "Brown sugar",
+      "category": "sweetener",
+      "substitutes": [
+        {
+          "name": "White sugar + molasses",
+          "ratio": "1 cup = 1 cup white sugar + 1-2 tbsp molasses",
+          "contexts": [
+            "baking",
+            "cooking"
+          ],
+          "quality": "excellent",
+          "dietaryTags": [],
+          "textureImpact": "Identical to brown sugar",
+          "flavorImpact": "Same as brown sugar",
+          "notes": "Use 1 tbsp for light brown, 2 tbsp for dark brown."
         }
       ]
     },
@@ -142,13 +133,35 @@
       "substitutes": [
         {
           "name": "Baking soda + cream of tartar",
-          "ratio": "1 tsp = 1/4 tsp soda + 1/2 tsp cream of tartar",
-          "contexts": ["baking"],
+          "ratio": "1 tsp = 0.25 tsp baking soda + 0.5 tsp cream of tartar",
+          "contexts": [
+            "baking"
+          ],
           "quality": "excellent",
           "dietaryTags": [],
           "textureImpact": "Identical",
           "flavorImpact": "Neutral",
           "notes": "This is what baking powder is made of."
+        }
+      ]
+    },
+    {
+      "id": "vanilla-extract",
+      "name": "Vanilla extract",
+      "category": "flavoring",
+      "substitutes": [
+        {
+          "name": "Vanilla bean paste",
+          "ratio": "1:1 (use same amount)",
+          "contexts": [
+            "baking",
+            "cooking"
+          ],
+          "quality": "excellent",
+          "dietaryTags": [],
+          "textureImpact": "None",
+          "flavorImpact": "Stronger vanilla flavor",
+          "notes": "More expensive but superior flavor."
         }
       ]
     },
@@ -159,23 +172,16 @@
       "substitutes": [
         {
           "name": "Milk + butter",
-          "ratio": "1 cup = 3/4 cup milk + 1/4 cup butter",
-          "contexts": ["cooking", "baking"],
+          "ratio": "1 cup = 0.75 cup milk + 0.25 cup melted butter",
+          "contexts": [
+            "cooking",
+            "baking"
+          ],
           "quality": "good",
           "dietaryTags": [],
           "textureImpact": "Slightly less rich",
           "flavorImpact": "Similar",
           "notes": "Works for cooking. Won't whip like cream."
-        },
-        {
-          "name": "Coconut cream",
-          "ratio": "1:1 (use same amount)",
-          "contexts": ["cooking", "baking"],
-          "quality": "excellent",
-          "dietaryTags": ["vegan", "dairy-free"],
-          "textureImpact": "Similar richness",
-          "flavorImpact": "Coconut flavor",
-          "notes": "Chill can overnight, use thick top layer."
         }
       ]
     },
@@ -187,7 +193,11 @@
         {
           "name": "Greek yogurt",
           "ratio": "1:1 (use same amount)",
-          "contexts": ["baking", "cooking", "topping"],
+          "contexts": [
+            "baking",
+            "cooking",
+            "topping"
+          ],
           "quality": "excellent",
           "dietaryTags": [],
           "textureImpact": "Similar thickness",
@@ -204,7 +214,9 @@
         {
           "name": "Milk + lemon juice",
           "ratio": "1 cup = 1 cup milk + 1 tbsp lemon juice",
-          "contexts": ["baking"],
+          "contexts": [
+            "baking"
+          ],
           "quality": "excellent",
           "dietaryTags": [],
           "textureImpact": "Identical",
@@ -221,22 +233,16 @@
         {
           "name": "Canola oil",
           "ratio": "1:1 (use same amount)",
-          "contexts": ["baking", "cooking", "frying"],
+          "contexts": [
+            "baking",
+            "cooking",
+            "frying"
+          ],
           "quality": "excellent",
           "dietaryTags": [],
           "textureImpact": "Identical",
           "flavorImpact": "Neutral",
           "notes": "Interchangeable in all recipes."
-        },
-        {
-          "name": "Melted coconut oil",
-          "ratio": "1:1 (use same amount)",
-          "contexts": ["baking", "cooking"],
-          "quality": "good",
-          "dietaryTags": ["vegan"],
-          "textureImpact": "Similar",
-          "flavorImpact": "Slight coconut flavor",
-          "notes": "Use refined for neutral flavor."
         }
       ]
     },
@@ -248,22 +254,17 @@
         {
           "name": "Maple syrup",
           "ratio": "1:1 (use same amount)",
-          "contexts": ["baking", "cooking"],
+          "contexts": [
+            "baking",
+            "cooking"
+          ],
           "quality": "excellent",
-          "dietaryTags": ["vegan"],
+          "dietaryTags": [
+            "vegan"
+          ],
           "textureImpact": "Similar",
           "flavorImpact": "Maple flavor",
           "notes": "Same consistency and sweetness level."
-        },
-        {
-          "name": "Agave nectar",
-          "ratio": "1:1 (use same amount)",
-          "contexts": ["baking", "cooking"],
-          "quality": "excellent",
-          "dietaryTags": ["vegan"],
-          "textureImpact": "Similar",
-          "flavorImpact": "Milder, more neutral",
-          "notes": "Lower glycemic index. Vegan option."
         }
       ]
     },
@@ -275,22 +276,234 @@
         {
           "name": "Lime juice",
           "ratio": "1:1 (use same amount)",
-          "contexts": ["baking", "cooking"],
+          "contexts": [
+            "baking",
+            "cooking"
+          ],
           "quality": "excellent",
           "dietaryTags": [],
           "textureImpact": "Identical",
           "flavorImpact": "Lime flavor",
           "notes": "Same acidity level. Works perfectly."
-        },
+        }
+      ]
+    },
+    {
+      "id": "mayonnaise",
+      "name": "Mayonnaise",
+      "category": "condiment",
+      "substitutes": [
         {
-          "name": "White vinegar",
+          "name": "Greek yogurt",
           "ratio": "1:1 (use same amount)",
-          "contexts": ["baking"],
+          "contexts": [
+            "sandwiches",
+            "salads"
+          ],
+          "quality": "excellent",
+          "dietaryTags": [],
+          "textureImpact": "Similar creaminess",
+          "flavorImpact": "Tangier",
+          "notes": "Healthier option."
+        }
+      ]
+    },
+    {
+      "id": "breadcrumbs",
+      "name": "Breadcrumbs",
+      "category": "coating",
+      "substitutes": [
+        {
+          "name": "Panko breadcrumbs",
+          "ratio": "1:1 (use same amount)",
+          "contexts": [
+            "coating",
+            "topping"
+          ],
+          "quality": "excellent",
+          "dietaryTags": [],
+          "textureImpact": "Crunchier, lighter",
+          "flavorImpact": "Similar",
+          "notes": "Crispier coating."
+        }
+      ]
+    },
+    {
+      "id": "cornstarch",
+      "name": "Cornstarch",
+      "category": "thickener",
+      "substitutes": [
+        {
+          "name": "All-purpose flour",
+          "ratio": "1 tbsp cornstarch = 2 tbsp flour",
+          "contexts": [
+            "thickening sauces"
+          ],
           "quality": "good",
           "dietaryTags": [],
-          "textureImpact": "Identical",
-          "flavorImpact": "Less fruity, more sharp",
-          "notes": "Works for acidity in baking."
+          "textureImpact": "Less glossy",
+          "flavorImpact": "May have slight flour taste",
+          "notes": "Use double the amount."
+        }
+      ]
+    },
+    {
+      "id": "plain-yogurt",
+      "name": "Plain yogurt",
+      "category": "dairy",
+      "substitutes": [
+        {
+          "name": "Sour cream",
+          "ratio": "1:1 (use same amount)",
+          "contexts": [
+            "baking",
+            "cooking"
+          ],
+          "quality": "excellent",
+          "dietaryTags": [],
+          "textureImpact": "Similar",
+          "flavorImpact": "Similar tanginess",
+          "notes": "Nearly identical."
+        }
+      ]
+    },
+    {
+      "id": "cream-cheese",
+      "name": "Cream cheese",
+      "category": "dairy",
+      "substitutes": [
+        {
+          "name": "Mascarpone",
+          "ratio": "1:1 (use same amount)",
+          "contexts": [
+            "baking",
+            "frosting"
+          ],
+          "quality": "excellent",
+          "dietaryTags": [],
+          "textureImpact": "Smoother, creamier",
+          "flavorImpact": "Richer, less tangy",
+          "notes": "More expensive but luxurious."
+        }
+      ]
+    },
+    {
+      "id": "ricotta-cheese",
+      "name": "Ricotta cheese",
+      "category": "dairy",
+      "substitutes": [
+        {
+          "name": "Cottage cheese",
+          "ratio": "1:1 (blend if needed)",
+          "contexts": [
+            "cooking",
+            "baking"
+          ],
+          "quality": "excellent",
+          "dietaryTags": [],
+          "textureImpact": "Similar when blended",
+          "flavorImpact": "Similar",
+          "notes": "Blend for lasagna."
+        }
+      ]
+    },
+    {
+      "id": "parmesan-cheese",
+      "name": "Parmesan cheese",
+      "category": "dairy",
+      "substitutes": [
+        {
+          "name": "Pecorino Romano",
+          "ratio": "1:1 (use same amount)",
+          "contexts": [
+            "cooking",
+            "topping"
+          ],
+          "quality": "excellent",
+          "dietaryTags": [],
+          "textureImpact": "Similar",
+          "flavorImpact": "Saltier, sharper",
+          "notes": "Reduce salt in recipe."
+        }
+      ]
+    },
+    {
+      "id": "chicken-broth",
+      "name": "Chicken broth",
+      "category": "liquid",
+      "substitutes": [
+        {
+          "name": "Vegetable broth",
+          "ratio": "1:1 (use same amount)",
+          "contexts": [
+            "cooking"
+          ],
+          "quality": "good",
+          "dietaryTags": [
+            "vegetarian",
+            "vegan"
+          ],
+          "textureImpact": "Similar",
+          "flavorImpact": "Less savory",
+          "notes": "May want to add more seasoning."
+        }
+      ]
+    },
+    {
+      "id": "tomato-paste",
+      "name": "Tomato paste",
+      "category": "condiment",
+      "substitutes": [
+        {
+          "name": "Tomato sauce (reduced)",
+          "ratio": "1 tbsp = 3 tbsp sauce (simmered)",
+          "contexts": [
+            "cooking"
+          ],
+          "quality": "good",
+          "dietaryTags": [],
+          "textureImpact": "Similar after reduction",
+          "flavorImpact": "Similar",
+          "notes": "Simmer to reduce by 2/3."
+        }
+      ]
+    },
+    {
+      "id": "worcestershire-sauce",
+      "name": "Worcestershire sauce",
+      "category": "condiment",
+      "substitutes": [
+        {
+          "name": "Soy sauce + vinegar + sugar",
+          "ratio": "1 tbsp = 1 tbsp soy + 1/4 tsp vinegar + pinch sugar",
+          "contexts": [
+            "cooking"
+          ],
+          "quality": "good",
+          "dietaryTags": [],
+          "textureImpact": "Similar",
+          "flavorImpact": "Similar umami",
+          "notes": "Mix together."
+        }
+      ]
+    },
+    {
+      "id": "dijon-mustard",
+      "name": "Dijon mustard",
+      "category": "condiment",
+      "substitutes": [
+        {
+          "name": "Whole grain mustard",
+          "ratio": "1:1 (use same amount)",
+          "contexts": [
+            "cooking",
+            "dressings"
+          ],
+          "quality": "excellent",
+          "dietaryTags": [],
+          "textureImpact": "Grainier",
+          "flavorImpact": "Similar",
+          "notes": "Seeds add texture."
         }
       ]
     },
@@ -302,7 +515,9 @@
         {
           "name": "Garlic powder",
           "ratio": "1 clove = 1/8 tsp powder",
-          "contexts": ["cooking"],
+          "contexts": [
+            "cooking"
+          ],
           "quality": "acceptable",
           "dietaryTags": [],
           "textureImpact": "No texture",
@@ -319,7 +534,10 @@
         {
           "name": "Ground ginger",
           "ratio": "1 tbsp fresh = 1/4 tsp ground",
-          "contexts": ["cooking", "baking"],
+          "contexts": [
+            "cooking",
+            "baking"
+          ],
           "quality": "acceptable",
           "dietaryTags": [],
           "textureImpact": "No texture",
@@ -336,7 +554,9 @@
         {
           "name": "Dried herbs",
           "ratio": "1 tbsp fresh = 1 tsp dried",
-          "contexts": ["cooking"],
+          "contexts": [
+            "cooking"
+          ],
           "quality": "acceptable",
           "dietaryTags": [],
           "textureImpact": "No texture",
@@ -353,12 +573,310 @@
         {
           "name": "Broth + vinegar",
           "ratio": "1 cup wine = 1 cup broth + 1 tbsp vinegar",
-          "contexts": ["cooking"],
+          "contexts": [
+            "cooking"
+          ],
           "quality": "good",
           "dietaryTags": [],
           "textureImpact": "Similar",
           "flavorImpact": "Less complex",
           "notes": "Broth adds body, acid adds brightness."
+        }
+      ]
+    },
+    {
+      "id": "cake-flour",
+      "name": "Cake flour",
+      "category": "structure",
+      "substitutes": [
+        {
+          "name": "All-purpose flour + cornstarch",
+          "ratio": "1 cup = 3/4 cup + 2 tbsp all-purpose flour + 2 tbsp cornstarch",
+          "contexts": [
+            "baking"
+          ],
+          "quality": "excellent",
+          "dietaryTags": [],
+          "textureImpact": "Tender, fine crumb \u2014 nearly identical",
+          "flavorImpact": "Neutral",
+          "notes": "Sift together twice for best results. Perfect for layer cakes and cupcakes."
+        }
+      ]
+    },
+    {
+      "id": "cocoa-powder",
+      "name": "Cocoa powder",
+      "category": "flavoring",
+      "substitutes": [
+        {
+          "name": "Dutch-process cocoa powder",
+          "ratio": "1:1 (use same amount)",
+          "contexts": [
+            "baking"
+          ],
+          "quality": "good",
+          "dietaryTags": [
+            "vegan"
+          ],
+          "textureImpact": "Identical",
+          "flavorImpact": "Smoother, less acidic, deeper color",
+          "notes": "Dutch-process is alkalized \u2014 omit baking soda or add 1/8 tsp cream of tartar per 3 tbsp to maintain lift."
+        }
+      ]
+    },
+    {
+      "id": "powdered-sugar",
+      "name": "Powdered sugar",
+      "category": "sweetener",
+      "substitutes": [
+        {
+          "name": "Blended white sugar + cornstarch",
+          "ratio": "1 cup = 1 cup white sugar + 1 tbsp cornstarch blended until fine",
+          "contexts": [
+            "baking",
+            "frosting"
+          ],
+          "quality": "excellent",
+          "dietaryTags": [],
+          "textureImpact": "Identical when blended fine",
+          "flavorImpact": "Identical",
+          "notes": "Use a high-speed blender or food processor. Blend for 2-3 minutes until powdery."
+        }
+      ]
+    },
+    {
+      "id": "shortening",
+      "name": "Shortening",
+      "category": "fat",
+      "substitutes": [
+        {
+          "name": "Butter",
+          "ratio": "1:1 (use same amount)",
+          "contexts": [
+            "baking"
+          ],
+          "quality": "good",
+          "dietaryTags": [],
+          "textureImpact": "Slightly less flaky, crispier edges",
+          "flavorImpact": "Richer buttery flavor",
+          "notes": "Butter has water content (~16%), so pastries may spread more. Chill dough before baking."
+        }
+      ]
+    },
+    {
+      "id": "active-dry-yeast",
+      "name": "Active dry yeast",
+      "category": "leavening",
+      "substitutes": [
+        {
+          "name": "Instant yeast",
+          "ratio": "1 tsp active dry = 3/4 tsp instant yeast",
+          "contexts": [
+            "baking"
+          ],
+          "quality": "excellent",
+          "dietaryTags": [
+            "vegan"
+          ],
+          "textureImpact": "Identical rise",
+          "flavorImpact": "Identical",
+          "notes": "Instant yeast does not need to be proofed first \u2014 add directly to dry ingredients. Rise time may be slightly faster."
+        }
+      ]
+    },
+    {
+      "id": "almond-flour",
+      "name": "Almond flour",
+      "category": "structure",
+      "substitutes": [
+        {
+          "name": "Sunflower seed flour",
+          "ratio": "1:1 (use same amount)",
+          "contexts": [
+            "baking"
+          ],
+          "quality": "good",
+          "dietaryTags": [
+            "vegan",
+            "nut-free"
+          ],
+          "textureImpact": "Similar moisture and density",
+          "flavorImpact": "Mild, slightly earthy",
+          "notes": "Good nut-free alternative. May turn green with baking soda \u2014 add 1 tsp lemon juice to neutralize."
+        }
+      ]
+    },
+    {
+      "id": "dark-chocolate",
+      "name": "Dark chocolate",
+      "category": "flavoring",
+      "substitutes": [
+        {
+          "name": "Cocoa powder + fat + sugar",
+          "ratio": "1 oz dark chocolate = 3 tbsp cocoa powder + 1 tbsp butter/oil + 1-2 tsp sugar",
+          "contexts": [
+            "baking",
+            "cooking"
+          ],
+          "quality": "good",
+          "dietaryTags": [],
+          "textureImpact": "Works well melted into batters; not suitable for tempering",
+          "flavorImpact": "Similar chocolate depth",
+          "notes": "Best used in brownies, cakes, and sauces. Not suitable for ganache or chocolate-dipped desserts."
+        }
+      ]
+    },
+    {
+      "id": "olive-oil",
+      "name": "Olive oil",
+      "category": "fat",
+      "substitutes": [
+        {
+          "name": "Avocado oil",
+          "ratio": "1:1 (use same amount)",
+          "contexts": [
+            "cooking",
+            "baking",
+            "dressings"
+          ],
+          "quality": "excellent",
+          "dietaryTags": [
+            "vegan"
+          ],
+          "textureImpact": "Identical",
+          "flavorImpact": "Neutral, buttery \u2014 less grassy than olive oil",
+          "notes": "Higher smoke point than olive oil, better for high-heat cooking. Great in salad dressings too."
+        }
+      ]
+    },
+    {
+      "id": "apple-cider-vinegar",
+      "name": "Apple cider vinegar",
+      "category": "acid",
+      "substitutes": [
+        {
+          "name": "White wine vinegar",
+          "ratio": "1:1 (use same amount)",
+          "contexts": [
+            "cooking",
+            "baking",
+            "dressings"
+          ],
+          "quality": "excellent",
+          "dietaryTags": [
+            "vegan"
+          ],
+          "textureImpact": "Identical",
+          "flavorImpact": "Lighter, less fruity",
+          "notes": "Works in virtually every recipe. For baking reactions (e.g. activating baking soda), white wine vinegar is a perfect swap."
+        }
+      ]
+    },
+    {
+      "id": "soy-sauce",
+      "name": "Soy sauce",
+      "category": "condiment",
+      "substitutes": [
+        {
+          "name": "Tamari",
+          "ratio": "1:1 (use same amount)",
+          "contexts": [
+            "cooking",
+            "dressings",
+            "marinades"
+          ],
+          "quality": "excellent",
+          "dietaryTags": [
+            "gluten-free"
+          ],
+          "textureImpact": "Identical",
+          "flavorImpact": "Slightly richer, less salty",
+          "notes": "Most tamari is gluten-free \u2014 check label to confirm. Slightly deeper umami flavor than regular soy sauce."
+        }
+      ]
+    },
+    {
+      "id": "canned-coconut-milk",
+      "name": "Canned coconut milk",
+      "category": "liquid",
+      "substitutes": [
+        {
+          "name": "Heavy cream",
+          "ratio": "1:1 (use same amount)",
+          "contexts": [
+            "cooking",
+            "baking",
+            "curries"
+          ],
+          "quality": "good",
+          "dietaryTags": [],
+          "textureImpact": "Similar richness and body",
+          "flavorImpact": "No coconut flavor \u2014 more neutral",
+          "notes": "Great for savory dishes where you want creaminess without coconut taste. Not vegan."
+        }
+      ]
+    },
+    {
+      "id": "balsamic-vinegar",
+      "name": "Balsamic vinegar",
+      "category": "acid",
+      "substitutes": [
+        {
+          "name": "Red wine vinegar + honey",
+          "ratio": "1 tbsp = 1 tbsp red wine vinegar + 1/2 tsp honey",
+          "contexts": [
+            "cooking",
+            "dressings",
+            "glazes"
+          ],
+          "quality": "good",
+          "dietaryTags": [],
+          "textureImpact": "Slightly thinner",
+          "flavorImpact": "Similar sweet-tart balance",
+          "notes": "Simmer briefly to reduce and thicken if making a glaze. Add a pinch of sugar for extra depth."
+        }
+      ]
+    },
+    {
+      "id": "kosher-salt",
+      "name": "Kosher salt",
+      "category": "seasoning",
+      "substitutes": [
+        {
+          "name": "Table salt",
+          "ratio": "1 tsp kosher salt = 1/2 tsp table salt (Morton) or 3/4 tsp (Diamond Crystal)",
+          "contexts": [
+            "cooking",
+            "baking"
+          ],
+          "quality": "excellent",
+          "dietaryTags": [],
+          "textureImpact": "Identical",
+          "flavorImpact": "Identical \u2014 ratio is everything",
+          "notes": "Table salt is finer and denser, so use significantly less. Brand matters: Morton is denser than Diamond Crystal."
+        }
+      ]
+    },
+    {
+      "id": "fish-sauce",
+      "name": "Fish sauce",
+      "category": "condiment",
+      "substitutes": [
+        {
+          "name": "Soy sauce + lime juice",
+          "ratio": "1 tbsp = 1 tbsp soy sauce + 1/4 tsp lime juice",
+          "contexts": [
+            "cooking",
+            "marinades",
+            "dressings"
+          ],
+          "quality": "good",
+          "dietaryTags": [
+            "vegan"
+          ],
+          "textureImpact": "Similar",
+          "flavorImpact": "Similar saltiness and umami, less funky",
+          "notes": "A great vegan swap. For more oceanic depth, add a pinch of dried seaweed or crumbled nori."
         }
       ]
     }
